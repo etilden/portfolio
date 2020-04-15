@@ -1,0 +1,52 @@
+img {
+  max-width: 400px;
+}
+
+a {
+  color: black; 
+  padding: 10px; 
+}
+
+.idOdd {
+  background-color: rgb(252, 228, 212);
+  margin: 100px; 
+}
+
+.idEven{
+  background-color: red;
+}
+
+.projRow {
+  width: 100%;
+  /* background-color: rgb(252, 228, 212); */
+  /* padding-right: 100px; */
+  border: black;
+  border-style: solid; 
+}
+
+.projCol {
+  display: inline-flexbox;
+  width: 28%;
+  float: left;
+  height: 80vh;
+  padding-top: 10vh;
+  /* border: black;
+  border-style: solid;  */
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom:10%;
+}
+
+.box {
+  /* border: black;
+  border-style: solid;  */
+  width: 30vw; 
+  height: 60vh;
+  padding: 80px;
+  margin: 100px;
+  float: center;
+  text-align: left;
+  justify-content: space-between;
+  /* background-color: rgb(252, 228, 212); */
+}
